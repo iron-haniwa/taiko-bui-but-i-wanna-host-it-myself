@@ -33,7 +33,7 @@ sudo apt install -y mongodb-org
 
 sudo mkdir -p /srv/taiko-web
 sudo chown $USER /srv/taiko-web
-git clone https://github.com/bui/iron-haniwa/taiko-bui-but-i-wanna-host-it-myself.git /srv/taiko-web
+git clone https://github.com/iron-haniwa/taiko-bui-but-i-wanna-host-it-myself.git /srv/taiko-web
 
 cd /srv/taiko-web
 tools/get_version.sh
